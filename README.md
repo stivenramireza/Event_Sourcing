@@ -1,2 +1,3 @@
-# Event_Sourcing
+# Event Sourcing
+
 Simple Event Sourcing example for scalable applications.
