@@ -127,4 +127,4 @@ for event in events:
     if type(event) == AccountDeleted:
         del users[event.account_id]
 
-[print (x) for x in users.values()]
+#[print (x) for x in users.values()]
