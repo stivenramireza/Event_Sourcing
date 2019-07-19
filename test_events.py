@@ -1,7 +1,6 @@
 import pytest
 from events import AccountCreated, AccountVerified, UserEmailChanged
 
-
 def test_initial_value_AccountCreated():
     account_created = AccountCreated(1, "tito_perez@yahoo.es", "3215896743", "1020578694", "Carrera 23 #76 124")     
     assert account_created.id == 1
